@@ -17,7 +17,7 @@
       schedulingshares = 20;
       enableemail = false;
       emailoverride = "";
-      keepnr = 1;
+      keepnr = 0;
       type = 1;
       flake = "github:${owner}/${repo}/pull/${num}/head";
     })
@@ -30,7 +30,7 @@
     enabled = "1";
     enableemail = false;
     emailoverride = "";
-    keepnr = 1;
+    keepnr = 0;
     hidden = false;
     type = 1;
     flake = "github:${owner}/${repo}/${branch}";
